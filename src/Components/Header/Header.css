@@ -1,0 +1,13 @@
+.header-container a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 10px;
+}
+.header-container a:hover {
+    color: orangered;
+}
+.active {
+    font-weight: bold !important;
+    color: orange !important;
+  }
+  
