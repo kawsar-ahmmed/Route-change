@@ -3,7 +3,8 @@ import React from 'react';
 const Uncle = ({house}) => {
     return (
         <div>
-            <h4>Uncle is here, House: {house}</h4>
+            <h4>Uncle is here</h4>
+            <p>House : {house}</p>
         </div>
     );
 };

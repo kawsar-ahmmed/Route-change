@@ -2,8 +2,8 @@
     border: solid 2px orange;
     margin: 10px;
     padding: 5px;
+    border-radius: 4px;
 }
-.grandpa {
-    display: grid;
-    grid-template-columns: repeat(3fr, 1fr);
+.family {
+    display: flex;
 }

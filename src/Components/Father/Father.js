@@ -4,13 +4,15 @@ import Brother from '../Brother/Brother';
 import Sisters from '../Sister/Sisters';
 import './Father.css'
 
-const Father = () => {
+const Father = ({house, ornament}) => {
     return (
-        <div className='father'>
+        <div className='father' >
             <h4>Father</h4>
-            <Myself></Myself>
-            <Brother></Brother>
-            <Sisters></Sisters>
+            <div className="my-family" style={{ display: 'flex' }}>
+                <Myself house={house} ornament={ornament}></Myself>
+                <Brother house={house}></Brother>
+                <Sisters house={house}></Sisters>
+            </div>
         </div>
     );
 };
