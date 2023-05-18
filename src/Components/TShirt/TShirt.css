@@ -2,3 +2,9 @@
 .tshirt-cart img {
     height: 350px;
 }
+
+.tshirt-cart  {
+    border-radius: 10px;
+    border: solid 1px gray;
+    padding: 15px;
+}
