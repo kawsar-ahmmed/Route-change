@@ -5,7 +5,7 @@ import useTshirts from '../../hooks/useTshirts';
 import TShirt from '../TShirt/TShirt';
 
 const Home = () => {
-    const [tshirts, setTshirts] = useTshirts();
+    const [tshirts] = useTshirts();
     const [cart, setCart] = useState([]);
 
     const handleAddToCart = (selectedItem) => {
