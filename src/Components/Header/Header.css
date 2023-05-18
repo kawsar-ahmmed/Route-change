@@ -4,7 +4,7 @@
     margin: 0px 10px;
 }
 .header-container a:hover {
-    color: orangered;
+    color: orange;
 }
 .active {
     font-weight: bold !important;

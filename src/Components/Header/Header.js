@@ -11,7 +11,7 @@ const Header = () => {
                     isPending ? "pending" : isActive ? "active" : ""
                 }>Home</NavLink>
                 <NavLink to='orderreview' className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
+                    isPending ? "git add pending" : isActive ? "active" : ""
                 }>Order Review</NavLink>
                 
             </nav>
