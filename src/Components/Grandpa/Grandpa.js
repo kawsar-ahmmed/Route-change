@@ -4,9 +4,10 @@ import Father from '../Father/Father';
 import Uncle from '../Uncle/Uncle';
 import Aunty from '../Aunty/Aunty';
 
+export const RingContext = createContext('Dimon Ding');
+
 const Grandpa = () => {
     // Context api text
-    const RingContext = createContext('Dimon Ding')
     //
     const [house, setHouse] = useState(0);
     const ornament = 'Dimon Ring'
@@ -15,7 +16,7 @@ const Grandpa = () => {
         setHouse(newHouseCount);
     }
     return (
-        <RingContext.Provider>
+        <RingContext.Provider value={ornament}>
             <div className='grandpa' >
                 <h3>Grandpa</h3>
                 <p>House: {house}<button onClick={() => handleBuyAHouse()}>Buy a house</button></p>
