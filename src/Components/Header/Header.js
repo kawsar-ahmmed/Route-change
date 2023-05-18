@@ -8,11 +8,14 @@ const Header = () => {
             <h1>This is tshirt mania</h1>
             <nav className="menu-main">
                 <NavLink to='/home' className={({ isActive, isPending }) =>
-                    isPending ? "pending" : isActive ? "active" : ""
+                    isPending ? "home" : isActive ? "active" : ""
                 }>Home</NavLink>
                 <NavLink to='orderreview' className={({ isActive, isPending }) =>
-                    isPending ? "git add pending" : isActive ? "active" : ""
+                    isPending ? "orderreview" : isActive ? "active" : ""
                 }>Order Review</NavLink>
+                <NavLink to='grandpa' className={({ isActive, isPending }) =>
+                    isPending ? "grandpa" : isActive ? "active" : ""
+                }>Grandpa</NavLink>
                 
             </nav>
 
