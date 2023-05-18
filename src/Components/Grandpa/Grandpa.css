@@ -1,0 +1,9 @@
+.grandpa, .grandpa div {
+    border: solid 2px orange;
+    margin: 10px;
+    padding: 5px;
+}
+.grandpa {
+    display: grid;
+    grid-template-columns: repeat(3fr, 1fr);
+}
