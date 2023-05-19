@@ -7,6 +7,7 @@ import Grandpa from './Components/Grandpa/Grandpa';
 import Father from './Components/Father/Father';
 import Uncle from './Components/Uncle/Uncle';
 import Aunty from './Components/Aunty/Aunty';
+import Page404 from './Components/Page404/Page404';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <Route path='/father' element={<Father></Father>}></Route>
         <Route path='/uncle' element={<Uncle></Uncle>}></Route>
         <Route path='/aunty' element={<Aunty></Aunty>}></Route>
+        <Route path='*' element={<Page404></Page404>} ></Route>
+
       </Routes>
       
     </div>
